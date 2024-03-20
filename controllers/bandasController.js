@@ -8,8 +8,9 @@ const controller = {
     const idBandas = req.params.idBandas
     const idNumber = []
     for (let i = 0; i < bandas.length; i++) {
-        if(bandas[i].id === idBandas) {
+        if(bandas[i].id == idBandas) {
             idNumber.push(bandas[i])
+            res.render("idBandas", {banda: bandas[i]})
         }
     } return res.send(idBandas)
   } 
