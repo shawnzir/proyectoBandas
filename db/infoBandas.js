@@ -20,7 +20,7 @@ module.exports = [
         integrantes: 5,
         genero: "Hip hop",
         topCanciones: ["Straight outta compton","Fuk da police","Boys in the hood"],
-        cover: 'images/eminem.png',
+        cover: 'images/eminem.jpg',
         id: 3,
         video: "https://www.youtube.com/watch?v=TMZi25Pq3T8"
     },{
@@ -36,7 +36,7 @@ module.exports = [
         integrantes: 1,
         genero: "Rap",
         topCanciones: ["Es épico", "Maquiavéñico", "Jeremías 17:5"],
-        cover: 'images/eminem.png',
+        cover: 'images/eminem.jpg',
         id: 5,
         video: "https://www.youtube.com/watch?v=sq6oc066w14"
     },{
@@ -60,7 +60,7 @@ module.exports = [
         integrantes: 2,
         genero: "Cumbia",
         topCanciones: ["Que locura fue enamorarme de ti","Cariño","La plazita"],
-        cover: 'images/eminem.png',
+        cover: 'images/eminem.jpg',
         id: 8,
         video: "https://www.youtube.com/watch?v=QDy3f_FAML8"
     },{
@@ -76,7 +76,7 @@ module.exports = [
         integrantes: 8,
         genero: "Reggae",
         topCanciones:[ "True love","You and me","I don't wanna wait"],
-        cover: 'images/eminem.png',
+        cover: 'images/eminem.jpg',
         id: 10,
         video: "https://www.youtube.com/watch?v=XqgWJ_yaU7E"
     }

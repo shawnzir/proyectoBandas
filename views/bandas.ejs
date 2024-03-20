@@ -9,7 +9,10 @@
     <p>Welcome to <%= title %></p>
     <ul>
       <% bandas.forEach(element => { %>
-       <li><%= element.nombre %></li>
+       <li>
+        <p><%= element.nombre %></p>
+        <img src="/<%= element.cover %>" alt="" style="width: 200px">
+      </li>
       <% }) %>
     </ul>
   </body>
