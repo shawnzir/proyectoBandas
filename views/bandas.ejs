@@ -10,8 +10,9 @@
     <ul>
       <% bandas.forEach(element => { %>
        <li>
-        <p><%= element.nombre %></p>
+        <a href="bandas/<%= element.id %>"><p><%= element.nombre %></p>
         <img src="/<%= element.cover %>" alt="" style="width: 200px">
+        </a>
       </li>
       <% }) %>
     </ul>
