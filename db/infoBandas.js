@@ -1,4 +1,4 @@
-module.exports = [
+const bandas = [
     {
         nombre: "AC/DC",
         integrantes: 5,
@@ -81,3 +81,5 @@ module.exports = [
         video: "https://www.youtube.com/watch?v=XqgWJ_yaU7E"
     }
 ]   
+
+module.exports = bandas
