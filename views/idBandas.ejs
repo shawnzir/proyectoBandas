@@ -9,7 +9,7 @@
   <h1>Id: <%= banda.id %></h1>
   <p>Nombre: <%= banda.nombre %></p>
   <p>Integrantes: <%= banda.integrantes %></p>
-  <p>Género: <%= banda.genero %></p>
+  <p>Género: <a href="http://localhost:3000/genero/<%= banda.genero %>"><%= banda.genero %></a></p>
   <p>Top Canciones</p>
   <ul>
     <% banda.topCanciones.forEach(element => { %>

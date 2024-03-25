@@ -6,13 +6,17 @@ const controller = {
   },
   idBandas: function(req, res) {
     const idBandas = req.params.idBandas
-    const idNumber = []
+    let idNumber = {}
     for (let i = 0; i < bandas.length; i++) {
         if(bandas[i].id == idBandas) {
-            idNumber.push(bandas[i])
-            res.render("idBandas", {banda: bandas[i]})
+            idNumber = bandas[i];
         }
-    } return res.send(idBandas)
+    } 
+    if(Object.keys(idNumber).length > 0){
+      res.render("idBandas", {banda: idNumber})
+    }else{
+      res.send("No existe una banda con ese id en la base de datos")
+    }
   },
   genero: (req,res)=>{
     let genero = req.params.genero;
